@@ -1,0 +1,6 @@
+# Robots.txt for DigitalGlow
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://digitalglow-vert.vercel.app/sitemap.xml

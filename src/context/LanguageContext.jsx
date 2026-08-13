@@ -15,6 +15,20 @@ export const LanguageProvider = ({ children }) => {
     localStorage.setItem('dg_lang', lang);
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+
+    if (lang === 'ar') {
+      document.title = "ديجيتال جلو — وكالة الخيمياء الرقمية | هندسة برمجية وتسويق متقدم";
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) {
+        metaDesc.setAttribute('content', 'ندمج بين دقة الهندسة البرمجية والتسويق عالي التأثير لابتكار تجارب رقمية متوهجة ومبنية على البيانات للعلامات التجارية الرائدة.');
+      }
+    } else {
+      document.title = "DigitalGlow — Digital Alchemy Agency | High-Impact Web & Marketing";
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) {
+        metaDesc.setAttribute('content', 'DigitalGlow bridges software engineering precision with high-impact marketing, custom web development, SEO, and AI data systems for forward-thinking brands.');
+      }
+    }
   }, [lang]);
 
   const toggleLanguage = () => {

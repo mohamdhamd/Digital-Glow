@@ -60,9 +60,11 @@ export const Portfolio = ({ onSelectProject }) => {
               <div className="card-image-container">
                 <img
                   src={imgSrc}
-                  alt={item.title}
+                  alt={`${item.title} — ${item.badge} Case Study | DigitalGlow`}
                   className="card-image"
                   loading="lazy"
+                  width="600"
+                  height="400"
                 />
                 <div className="card-image-overlay"></div>
                 <div className="card-tag-badge">

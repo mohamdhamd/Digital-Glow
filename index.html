@@ -1,20 +1,153 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DigitalGlow — Digital Alchemy Agency | Illuminate Your Digital Presence</title>
-    <meta name="description" content="We fuse software engineering precision with high-impact marketing to create luminous, data-driven experiences for forward-thinking brands." />
-    <meta name="google-site-verification" content="NV2XjflivEEqXgLtjY9KoThfzSy95khI3MCaBqeNJmw" />
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DigitalGlow — Digital Alchemy Agency | High-Impact Web & Marketing</title>
+  <meta name="description"
+    content="DigitalGlow bridges software engineering precision with high-impact marketing, custom web development, SEO, and AI data systems for forward-thinking brands." />
+  <meta name="google-site-verification" content="NV2XjflivEEqXgLtjY9KoThfzSy95khI3MCaBqeNJmw" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://digitalglow-vert.vercel.app/" />
+  <meta name="theme-color" content="#030712" />
+  <meta name="author" content="DigitalGlow" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://digitalglow-vert.vercel.app/" />
+  <meta property="og:title" content="DigitalGlow — Digital Alchemy Agency" />
+  <meta property="og:description"
+    content="We fuse software engineering precision with high-impact marketing to create luminous, data-driven experiences for forward-thinking brands." />
+  <meta property="og:image" content="https://digitalglow-vert.vercel.app/favicon.svg" />
+  <meta property="og:site_name" content="DigitalGlow" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_AE" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DigitalGlow — Digital Alchemy Agency" />
+  <meta name="twitter:description"
+    content="We fuse software engineering precision with high-impact marketing to create luminous, data-driven experiences." />
+  <meta name="twitter:image" content="https://digitalglow-vert.vercel.app/favicon.svg" />
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://digitalglow-vert.vercel.app/#organization",
+          "name": "DigitalGlow",
+          "url": "https://digitalglow.io",
+          "logo": "https://digitalglow-vert.vercel.app/favicon.svg",
+          "description": "Digital Alchemy Agency fusing software engineering precision with high-impact marketing.",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+971501234567",
+            "contactType": "customer service",
+            "email": "hello@digitalglow.io",
+            "availableLanguage": ["English", "Arabic"]
+          },
+          "sameAs": [
+            "https://linkedin.com",
+            "https://twitter.com"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://digitalglow-vert.vercel.app/#website",
+          "url": "https://digitalglow.io",
+          "name": "DigitalGlow",
+          "publisher": {
+            "@id": "https://digitalglow-vert.vercel.app/#organization"
+          },
+          "inLanguage": ["en", "ar"]
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://digitalglow-vert.vercel.app/#service",
+          "name": "DigitalGlow",
+          "url": "https://digitalglow.io",
+          "image": "https://digitalglow-vert.vercel.app/favicon.svg",
+          "priceRange": "$$$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Dubai Design District",
+            "addressLocality": "Dubai",
+            "addressCountry": "AE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "25.1867",
+            "longitude": "55.2974"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Digital & Software Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "SEO & Search Optimization"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Web & Software Engineering"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Fintech & Secure Systems"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "UI/UX & Brand Alchemy"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Growth & Performance Marketing"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AI & Data Intelligence"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+    </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
